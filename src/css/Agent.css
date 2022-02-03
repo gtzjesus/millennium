@@ -1,0 +1,50 @@
+.agent {
+  text-align: center;
+  padding: 2.5%;
+  background-color: #f8f7f2;
+  padding-bottom: 0;
+}
+.agent > h1 {
+  font-size: 35px;
+  letter-spacing: 2.5px;
+}
+.agent > p {
+  padding: 1% 0;
+  font-size: 18px;
+}
+.contact__button a {
+  background-color: inherit;
+  border: 1px solid #252525;
+  font-size: 0.825rem;
+  color: #252525;
+  padding: 1.25em 1.825em;
+  letter-spacing: 0.1rem;
+  font-weight: 350;
+  text-align: center;
+  /* position: absolute; */
+  display: table;
+  margin: 0 auto;
+  text-decoration: none;
+  border-radius: 0.25vh;
+  transition: 0.5s ease;
+}
+.contact__button a:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 956px) {
+  .agent {
+    padding: 10%;
+  }
+  .agent > h1 {
+    font-size: 25px;
+  }
+  .agent > p {
+    padding: 5% 0;
+    font-size: 15px;
+  }
+  .contact__button a {
+    font-size: 0.725rem;
+  }
+}

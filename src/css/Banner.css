@@ -1,0 +1,28 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  background-color: #ffff;
+  padding: 2.5% 5% 5% 5%;
+}
+.banner__desktop {
+  width: 75%;
+}
+.banner__mobile {
+  display: none;
+}
+
+@media (max-width: 956px) {
+  .banner {
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+    padding: 10% 0 0 0;
+  }
+  .banner__desktop {
+    display: none;
+  }
+  .banner__mobile {
+    display: grid;
+    width: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+.home__desktop {
+  /* Set rules to fill background */
+  max-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  top: 0;
+  left: 0;
+}
+.home__mobile {
+  display: none;
+}
+.home > h1 {
+  font-size: 25px;
+}
+
+@media (max-width: 956px) {
+  .home__desktop {
+    display: none;
+  }
+  .home__mobile {
+    display: grid;
+    width: 100%;
+  }
+  .home > h1 {
+    font-size: 25px;
+  }
+}

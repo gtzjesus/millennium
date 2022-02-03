@@ -1,0 +1,20 @@
+.trec {
+  background-color: #252525;
+}
+.trec__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 5% 0;
+}
+
+@media (max-width: 956px) {
+  .trec__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 15% 5%;
+  }
+}

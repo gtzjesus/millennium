@@ -1,0 +1,38 @@
+.hook {
+  background-color: #f8f7f2;
+}
+.hook__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 10% 0 0 0;
+  max-width: 975px;
+  grid-gap: 25px;
+}
+.hook__container > p {
+  font-size: 22px;
+  padding: 5% 1% 1% 1%;
+}
+.hook__container > img {
+  width: 50%;
+  padding: 0 0 5% 0;
+}
+
+@media (max-width: 956px) {
+  .hook__container {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    padding: 10% 0 0 0;
+    grid-gap: 0;
+  }
+  .hook__container > p {
+    padding: 15%;
+    font-size: 15px;
+  }
+  .hook__container > img {
+    width: 85%;
+    padding: 0 0 5% 0;
+    margin: 0 auto;
+  }
+}
